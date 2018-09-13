@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: zuul-demo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka
+zuul:
+  routes:
+    info:
+      path: /info/**
+      service-id: eureka-client-producer
+    info-ii:
+      path: /info-ii/**
+      serviece-id: eureka-client-producer-ii
