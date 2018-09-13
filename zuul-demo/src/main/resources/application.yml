@@ -12,6 +12,3 @@ zuul:
     info:
       path: /info/**
       service-id: eureka-client-producer
-    info-ii:
-      path: /info-ii/**
-      serviece-id: eureka-client-producer-ii
