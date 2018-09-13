@@ -8,3 +8,6 @@
 out
 gen
 .idea/
+eureka-server-demo/target/
+eureka-client-producer/target/
+eureka-client-producer-ii/target/
