@@ -1,2 +1,6 @@
-# eureka-demo
-eureka demo
+# spring-cloud-demo
+spring cloud demo
+
+Netflix
+  - Eureka
+  - zuul
